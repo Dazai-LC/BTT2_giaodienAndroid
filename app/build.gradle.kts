@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -34,7 +35,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 }
-
 dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
@@ -43,6 +43,10 @@ dependencies {
     implementation(libs.cardview)
     implementation(libs.fragment)
     implementation(libs.gridlayout)
+    implementation(libs.recyclerview)
+
+    implementation(libs.firebase.database)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

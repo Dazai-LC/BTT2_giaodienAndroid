@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191537028237",
+    "project_id": "dazai-appme",
+    "storage_bucket": "dazai-appme.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191537028237:android:a526bb72868862855756c4",
+        "android_client_info": {
+          "package_name": "com.example.appme_dazai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuU9mp1i6minlNeI3f_Z9Mf7KuPmanHM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
